@@ -2,9 +2,9 @@ name: first workflow
 on: push
 jobs:
   my-job:
-   runs-on: ubuntu-latest
-   steps:
-     - name: checkout code
-       uses: actions/checkout@v4
-     - name: Read-File
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+      - name: Read-File
      run: cat hello.txt
